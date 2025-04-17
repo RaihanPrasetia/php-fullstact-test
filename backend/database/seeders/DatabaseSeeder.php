@@ -19,5 +19,8 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // Uncomment the following line to run the MyClientSeeder
+        $this->call(MyClientSeeder::class);
     }
 }
